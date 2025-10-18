@@ -7,3 +7,5 @@ app.listen(PORT, () => {
   console.log(`📊 Visits counter API: http://localhost:${PORT}/api/visits`);
   console.log(`❤️  Health check: http://localhost:${PORT}/api/health`);
 });
+
+export default app;
